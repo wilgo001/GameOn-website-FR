@@ -200,6 +200,9 @@ input {
   border: 0.8px solid #ccc;
   outline: none;
 }
+input:invalid {
+  border-color: red;
+}
 .text-control {
   margin: 0;
   padding: 8px;
@@ -295,6 +298,9 @@ input[data-error]::after {
   transform: rotate(-55deg);
   left: 21%;
   top: 19%;
+}
+.checkbox2-label .checkbox-icon.invalid-check {
+  border: 2px solid red;
 }
 .close {
   position: absolute;
@@ -403,6 +409,7 @@ input[data-error]::after {
 .text-label {
   font-weight: normal;
   font-size: 16px;
+  display: inline;
 }
 .hero-section {
   min-height: 93vh;
@@ -515,6 +522,14 @@ footer {
     margin-top: 50px;
     text-align: center;
   }
+}
+
+.error-message {
+  color: red;
+}
+
+.display-none {
+  display: none;
 }
 
 @keyframes modalopen {

@@ -1,0 +1,28 @@
+{
+  "first": {
+    "required": "Veuillez remplir le champ du prénom",
+    "twoChar": "Veuillez entrer 2 caractères ou plus pour le champ du prénom"
+  },
+  "last": {
+    "required": "Veuillez remplir le champ du nom",
+    "twoChar": "Veuillez entrer 2 caractères ou plus pour le champ du nom"
+  },
+  "email": {
+    "required": "Veuillez remplir le champ de l'email",
+    "emailPattern": "Veuillez entrer un email valide"
+  },
+  "birthdate": {
+    "required": "Veuillez remplir le champ de date de naissance",
+    "datePattern": "Veuillez entrer une date de naissance valide",
+    "adultOnly": "Vous dever avoir plus de 18 ans pour vous inscrire"
+  },
+  "quantity": {
+    "noNegate": "Veuillez entrer une valeur supérieur ou égale à 0"
+  },
+  "location1": {
+    "required": "Veuillez choisir une ville"
+  },
+  "checkbox1": {
+    "required": "Veuillez accepter les conditions générales d'utilisation"
+  }
+}
