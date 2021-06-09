@@ -9,7 +9,7 @@ function editNav() {
 
 function closeModal() {
   modalbg.style.display = "none";
-  form.close();
+  form.stop();
 } 
 
 // DOM Elements
